@@ -1,0 +1,53 @@
+Auto Close Tag
+formulahendry.auto-close-tag
+Jun Han1,996,541Repository
+Automatically add HTML/XML close tag, same as Visual Studio IDE or Sublime Text
+
+
+Auto Rename Tag
+formulahendry.auto-rename-tag
+Jun Han1,858,227Repository
+Auto rename paired HTML/XML tag
+
+Bracket Pair Colorizer 2
+coenraads.bracket-pair-colorizer-2
+CoenraadS393,560RepositoryLicense
+A customizable extension for colorizing matching brackets
+
+
+C#
+ms-vscode.csharp
+Microsoft5,539,933RepositoryLicense
+C# for Visual Studio Code (powered by OmniSharp).
+
+C# Extensions
+jchannon.csharpextensions
+jchannon513,410Repository
+C# IDE Extensions for VSCode
+
+
+ES7 React/Redux/GraphQL/React-Native snippets
+dsznajder.es7-react-js-snippets
+dsznajder881,636Repository
+Simple extensions for React, Redux and Graphql in JS/TS with ES7 syntax
+
+
+Material Icon Theme
+pkief.material-icon-theme
+Philipp Kief2,680,519RepositoryLicense
+Material Design Icons for Visual Studio Code
+
+NuGet Package Manager
+jmrog.vscode-nuget-package-manager
+jmrog239,819RepositoryLicense
+Add or remove .NET Core 1.1+ package references to/from your project's .csproj or .fsproj file using Code's Command Palette.
+
+Prettier - Code formatter
+esbenp.prettier-vscode
+Esben Petersen3,862,141RepositoryLicense
+VS Code plugin for prettier/prettier
+
+SQLite
+alexcvzz.vscode-sqlite
+alexcvzz141,351RepositoryLicense
+Explore and query SQLite databases.
