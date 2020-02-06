@@ -1,6 +1,8 @@
 using System;
+using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
+using Application.Errors;
 using Domain;
 using MediatR;
 using Persistance;
@@ -9,7 +11,8 @@ namespace Application.Activities
 {
     public class Details
     {
-        public class Query: IRequest<Activity> {
+        public class Query : IRequest<Activity>
+        {
             public Guid Id { get; set; }
         }
 
@@ -26,6 +29,13 @@ namespace Application.Activities
              CancellationToken cancellationToken)
             {
                 var activity = await _context.Activities.FindAsync(request.Id);
+                if (activity == null)
+                {
+                    throw new RestException(HttpStatusCode.NotFound, new
+                    {
+                        activity = "Not Found"
+                    });
+                }
                 return activity;
             }
         }
